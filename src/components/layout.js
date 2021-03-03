@@ -29,7 +29,7 @@ function Layout({ children }) {
           <p>
             <a
               className="font-bold text-white no-underline"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
+              href="https://github.com/jeffrey-t-l"
               target="_blank"
               rel="noopener noreferrer"
             >
