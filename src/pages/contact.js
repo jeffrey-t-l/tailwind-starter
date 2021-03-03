@@ -34,7 +34,6 @@ function ContactPage() {
 
           <input
             className="w-full mb-6 rounded-md border-gray-800"
-            id="first-name"
             placeholder="Bill"
             type="text"
             name="fname"
@@ -49,7 +48,6 @@ function ContactPage() {
 
           <input
             className="w-full mb-6 rounded-md border-gray-800"
-            id="last-name"
             placeholder="Murray"
             type="text"
             name="lname"
@@ -64,7 +62,6 @@ function ContactPage() {
 
           <textarea
             className="w-full mb-6 rounded-md border-gray-800"
-            id="message"
             placeholder="Say something..."
             rows="8"
             name="msg"
