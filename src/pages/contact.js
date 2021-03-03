@@ -11,7 +11,7 @@ function ContactPage() {
         title="Contact"
       />
       <section>
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
           <h2 className="mb-8 leading-loose">
             Here is an example of a form built using the official Tailwind CSS Forms plugin.{` `}
             <a
@@ -37,6 +37,7 @@ function ContactPage() {
             id="first-name"
             placeholder="Bill"
             type="text"
+            name="fname"
           />
 
           <label
@@ -51,6 +52,7 @@ function ContactPage() {
             id="last-name"
             placeholder="Murray"
             type="text"
+            name="lname"
           />
 
           <label
@@ -65,9 +67,10 @@ function ContactPage() {
             id="message"
             placeholder="Say something..."
             rows="8"
+            name="msg"
           />
 
-          <button className="px-4 py-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600">
+          <button type="submit" className="px-4 py-2 text-sm font-bold text-white bg-gray-700 border-b-4 border-gray-800 rounded hover:border-gray-700 hover:bg-gray-600">
             Submit
           </button>
         </form>
